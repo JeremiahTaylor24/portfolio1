@@ -2,6 +2,7 @@
 
 body{
   background-color: rgb(117, 169, 145);
+ 
 }
 
 img{
@@ -142,6 +143,21 @@ img{
   margin-left: 410px;
   margin-top: 15px;
   background-color: #5dc1ae;
+}
+
+@media screen and (max-width: 768px) {
+  header, main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /*
