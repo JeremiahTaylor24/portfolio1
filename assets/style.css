@@ -1,7 +1,7 @@
 :root
 
 body{
-  background-color: rgb(156, 217, 190);
+  background-color: rgb(117, 169, 145);
 }
 
 img{
@@ -45,8 +45,8 @@ img{
 
 .banner{
     height: 150px;
-    width: 96%;
-    margin-left: 1%;
+    width: 90%;
+    margin-left: 4%;
     border: 5px black;
     background-color: #067462;
     border-style: solid;
@@ -68,5 +68,52 @@ img{
   border-radius: 5%;
   color: white;
 }
+
+.card3{
+  margin-top: -311px;
+  margin-left: 750px;
+  width: 350px;
+  text-align: center;
+  position: relative;
+  border: 5px black;
+  padding: 10px;
+  background-color: #067462;
+  border-style: solid;
+  border-radius: 5%;
+  color: white;
+}
+
+.bottom-card1 {
+  height: 175px;
+  width: 400px;
+  margin-top: -10px;
+  margin-left: 160px;
+  text-align: justify;
+  position: relative;
+  border: 5px black;
+  padding: 25px;
+  background-color: #5dc1ae;
+  border-style: solid;
+  border-radius: 5%;
+  color: white;
+
+}
+
+.bottom-card2{
+  height: 175px;
+  width: 400px;
+  margin-top: -10px;
+  margin-left: 715px;
+  text-align: justify;
+  position: relative;
+  border: 5px black;
+  padding: 25px;
+  background-color: #5dc1ae;
+  border-style: solid;
+  border-radius: 5%;
+  color: white;
+
+}
+
 
 

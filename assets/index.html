@@ -17,6 +17,22 @@ I need to symetrical squares/rectangular boxes for remaining information at the 
 I need a footer with contact information
 I need to create clickable links that will take me to a certain point on the page.-->
 
+<!--
+    GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
+-->
+
 
 <body>
     
@@ -27,6 +43,7 @@ I need to create clickable links that will take me to a certain point on the pag
     </header>
 
     <a href="#banner1">Purpose</a>
+    <a href="#education-history">Education History</a>
 
     <!--Left of trying to create links for the different areas on the page. Resume working here-->
 
@@ -53,8 +70,18 @@ I need to create clickable links that will take me to a certain point on the pag
 
         </section>
 
-        <section class="card2">
+        <section class="card2" id="education-history">
             <h3>Education and History</h3>
+        </section>
+
+        <section class="bottom-card1">
+            <p>I graduated from Abilene Christian University in 2022 with a degree in history. Soon after, I worked with American Cruise Lines. There I really developed my logical problem solving skills giving me the confidence to begin my coding journey.</p>
+        </section>
+
+        <section class="bottom-card2"></section>
+
+        <section class="card3">
+            <h3>My Projects</h3>
 
         </section>
     </main>
