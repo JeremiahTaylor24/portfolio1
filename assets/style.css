@@ -70,8 +70,9 @@ img{
 }
 
 .card3{
-  margin-top: -311px;
-  margin-left: 750px;
+  margin-top: -315px;
+  margin-left: 785px;
+  margin-bottom: 150px;
   width: 350px;
   text-align: center;
   position: relative;
@@ -88,7 +89,7 @@ img{
   width: 400px;
   margin-top: -10px;
   margin-left: 160px;
-  text-align: justify;
+  text-align:center;
   position: relative;
   border: 5px black;
   padding: 25px;
@@ -102,8 +103,9 @@ img{
 .bottom-card2{
   height: 175px;
   width: 400px;
-  margin-top: -10px;
-  margin-left: 715px;
+  margin-top: -160px;
+  margin-bottom: 200px;
+  margin-left: 745px;
   text-align: justify;
   position: relative;
   border: 5px black;
