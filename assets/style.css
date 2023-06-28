@@ -125,10 +125,27 @@ img{
   border-color: black;
   border-width: 15px;
   border-radius: 8%;
+  margin-left: 300px;
+  margin-top: -190px;
+  background-color: #5dc1ae;
+
+}
+
+.img3{
+  height: 250px;
+  width: 500px;
+  padding: 25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 15px;
+  border-radius: 8%;
+  margin-left: 410px;
+  margin-top: 15px;
   background-color: #5dc1ae;
 }
 
 /*
+demize height width by 200
   width: 280px;
   height: 200px;
   margin-top: 20px;
