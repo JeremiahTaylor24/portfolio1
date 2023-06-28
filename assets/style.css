@@ -4,6 +4,18 @@ body{
   background-color: rgb(156, 217, 190);
 }
 
+img{
+  width: 280px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 150px;
+  padding: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 8%;
+}
+
+
 .sub-title {
     padding: 0px;
     border: black;
@@ -21,7 +33,7 @@ body{
     margin: 15px;
     margin-left: 475px;
     margin-bottom: 50px;
-    margin-top: -190px;
+    margin-top: -215px;
     width: 800px;
     border: 5px black;
     padding: 10px;
@@ -31,28 +43,30 @@ body{
     color: white;
 }
 
-
-
-img{
-  width: 280px;
-  height: 200px;
-  margin-top: 15px;
-  margin-left: 150px;
-  padding: 2px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 8%;
-}
-
 .banner{
     height: 150px;
     width: 96%;
-    margin-left: 2%;
+    margin-left: 1%;
     border: 5px black;
     background-color: #067462;
     border-style: solid;
     border-radius: 5%;
     color: white;
     padding: 10px;
-  }
+}
+
+.card2{
+  margin-top: 15px;
+  margin-left: 200px;
+  width: 350px;
+  text-align: center;
+  position: relative;
+  border: 5px black;
+  padding: 10px;
+  background-color: #067462;
+  border-style: solid;
+  border-radius: 5%;
+  color: white;
+}
+
 
